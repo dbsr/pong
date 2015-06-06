@@ -1,13 +1,17 @@
 {
   "name": "pong",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Very simple HTTP server which outputs basic information about all incoming requests.",
   "bin": {
-    "pong": "pong.js"
+    "pong": "bin/pong"
   },
-  "directories": {
-    "test": "test"
+  "author": "Daan Mathot <daanmathot@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbsr/pong.git"
+  },
+  "license": {
+    "type": "MIT"
   },
   "dependencies": {
     "body-parser": "^1.12.4",
@@ -18,20 +22,7 @@
     "lodash": "^3.9.3",
     "prettyjson": "^1.1.2",
     "request-ip": "^1.1.3",
-    "sprintf": "^0.1.5"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dbsr/pong"
-  },
-  "author": "= <=>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dbsr/pong/issues"
-  },
-  "homepage": "https://github.com/dbsr/pong"
+    "sme
+    printf": "^0.1.5"
+  }
 }
